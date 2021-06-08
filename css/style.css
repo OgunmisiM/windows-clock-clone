@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    background-color: black;
+}
+
+#clock {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 50px;
+    background-color: black;
+    color: #e9eb9e;
+    font-size: 75px;
+    margin: 0px 50px;
+}
+
+#date {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    background-color: black;
+    color: #e9eb9e;
+    font-size: 30px;
+    margin: 0px 50px;
+}
