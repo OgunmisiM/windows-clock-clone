@@ -3,28 +3,25 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    background-color: black;
+    background-color: rgb(59, 57, 57);
 }
 
 #clock {
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     bottom: 50px;
-    background-color: black;
-    color: #e9eb9e;
+    background-color: rgb(59, 57, 57);
+    color: white;
     font-size: 75px;
-    margin: 0px 50px;
 }
 
 #date {
     width: 100%;
     position: absolute;
     left: 0;
-    bottom: 25px;
-    background-color: black;
-    color: #e9eb9e;
+    bottom: 30px;
+    background-color: rgb(59, 57, 57);
+    color: white;
     font-size: 30px;
-    margin: 0px 50px;
 }
